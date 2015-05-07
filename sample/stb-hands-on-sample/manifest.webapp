@@ -1,0 +1,24 @@
+{
+  "name": "Sample TVAPI",
+  "description": "Sample TVAPI",
+  "version": "1",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/style/icons/icon.png",    
+    "160": "/style/icons/icon.png",
+    "320": "/style/icons/icon4k.png"
+  },
+  "permissions": {
+    "pana-plugin":{},
+    "pana-server-url":{},
+    "tv":{}
+  },
+  "default_locale": "ja-JP",
+  "locales": {
+    "ja-JP": {
+      "name":"Sample TVAPI",
+      "description": "Sample TVAPI"
+    }
+  }
+}
