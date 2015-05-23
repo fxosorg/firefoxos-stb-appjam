@@ -17,7 +17,9 @@
   "permissions": {
     "tv": {
       "description":"using the TV Manager API"
-    }
+    },
+    "pana_plugin":{},
+    "pana-server-url":{}
   },
   "installs_allowed_from": [
     "*"
@@ -29,5 +31,11 @@
       "permissions": {}
     }
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "pana_input_device_settings":{
+    "mouse":"enable",
+    "touchpad":"mouse",
+    "remote_arrow_key":"mouse",
+    "keyboard_arrow_key":"mouse"
+  }
 }
